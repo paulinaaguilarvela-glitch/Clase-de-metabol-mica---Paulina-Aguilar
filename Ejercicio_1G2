@@ -1,0 +1,28 @@
+2+2
+2^(-4)
+
+perros <- 15
+ovejas <- 200
+perros+ovejas
+
+gatos <- "25"
+perros+gatos
+#########################################################
+#Ejercicio1
+CHO <- 535000
+VERO <- 1350000
+CHO + VERO
+total <- CHO + VERO
+total
+
+Nombre <- c("Manuel","July","Ian","Pau","Fede","Lulu","Paola")
+Estatura <- c(1.77,1.55,1.73,1.63,1.70,1.70,1.57)
+Edad <- c(41,22,27,26,22,23,23)
+Mascotas <- c("si","si","si","no","si","si","si")
+
+Tabla <- data.frame(Nombre,Estatura, Edad,Mascotas)
+Tabla
+View(Tabla)
+
+Promedio_estaturas <- mean(Tabla$Estatura)
+Promedio_estaturas
